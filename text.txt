@@ -1,0 +1,1645 @@
+DEPARTMENT OF COMPUTER SCIENCE 
+GEOGRAPHICAL INFORMATION SYSTEM (GIS) 
+SCS3204 
+LECTURER 1 
+INTRODUCTION TO GIS 
+BY 
+Dr. Fredrick Kanobe (Ph.D) 
+Tel contact: 0782-592120 Emails: fkanobe@kyu.ac.ug or fred.Kanobe@gmail.com 
+Course Description 
+This course is to provide both a solid theoretical understanding and a comprehensive practical introduction to
+the use of geographic information systems, GIS-related terminologies and spatial data basics for the analysis 
+and solution of different environmental problems. It introduces common image processing software packages 
+and how to use them, 
+Course Outcome 
+By the end of the course, you should be able to: 
+ Demonstrate an understanding of the GIS 
+ Show knowledge of the basic principles underlying the GIS/model-based management systems 
+ Demonstrate skills in GIS problem-solving techniques for sustainable planning and management 
+ Input data in a GIS software tool 
+ Design, create, maintain, and data integrate in a GIS software 
+REFERENCES: 
+ Mich Paul Bolstad . (2016). GIS Fundamentals: A First Text on Geographic Information Systems, 5th edition. 
+Eider Press 
+ Michael N. DeMers. (2009). GIS For Dummies. For Dummies; 1 edition. ISBN-10: 0470236825, 
+ ISBN-13: 978-0470236826 
+ Paul A. Longley, Mike Goodchild, David J. Maguire, David W. Rhind . (2010). Geographic Information 
+Systems and Science. Wiley; 3 edition. ISBN-10: 0470721448, ISBN-13: 978-0470721445 
+ Law, Amy Collins. (2013). Getting to Know ArcGIS for Desktop. Esri Press; Third Edition . 
+ Tim Ormsby, Eileen J. Napoleon, Robert Burke, Carolyn Groessl. (2010). Getting to Know ArcGIS Desktop. 
+Esri Press; Second Edition, for ArcGIS 10 edition. ISBN-10: 1589482603, 
+ Keith, C. Clarke.(2010). Getting Started with Geographic Information Systems (5th Edition). Prentice Hall; 5 
+edition. ISBN-10: 0131494988, ISBN-13: 978-0131494985 
+ Indy Hurt, Keith C. Clarke. (2010). GIS Exercise Workbook for Getting Started with Geographic Information 
+Systems. Prentice Hall; 5 edition. ISBN-10: 0321697960, ISBN-13: 978-0321697967 
+GEOGRAPHICAL INFORMATION SYSTEM (GIS) 
+A system that creates, manages, analyses and maps all types of data. GIS connects all types of data to a map 
+with all descriptive information hence providing a foundation for mapping and analysis that is used in science 
+and almost all types of industry. GIS help users to understand patterns, relationships and geographical 
+relationships in data. 
+A GIS can be viewed as a computer-based system used in the collection, maintenance, storage, analysis, 
+output, and distribution of spatial data and information. It quantifies these locations by recording their 
+coordinates, numbers that describe the position of these features on earth. 
+A geographic information system (GIS) is a computer system for capturing, storing, checking, and 
+displaying data related to positions on Earth’s surface 
+Spatial data is any type of data that directly or indirectly references a specific geographical area or location. 
+Sometimes called geospatial data or geographic information, spatial data can also numerically represent a 
+physical object in a geographic coordinate system. 
+ 
+COMPONENTS OF GIS 
+GIS applications include both hardware (GIS devices) and software systems. These software applications may 
+include cartographic data, photographic data, digital data, or data in spreadsheets. 
+Devices used in GIS 
+GIS data collection devices include the following: 
+Digitizers: Hardware device that receives analog information, such as sound or light, and records it digitally. 
+Usually, the information is stored in a file on a computing device. GIS professionals can use digitizers to easily 
+capture, store, analyze, and manage data while in the field. Examples of digitizers are digital cameras, tablets, 
+scanners. 
+GPS Units: Any device used to receive information from GPS satellites and calculating your geographical 
+position. The Geographical Positioning Unit (GPS) was originally developed by US government for military 
+use but now any one can use GPD device. Commonly used in surveying and mapping. 
+Mobile devices: Various mobile devices with professional GIS features are used as GPS hardware used in data 
+collection 
+Devices used in GIS 
+Desktop Computer - You’ll need a large-display monitor, lots of RAM (more than 4 GB recommended), 
+and plenty of extra space on the hard drive where you can upload your data for later use 
+Printer – Incredibly useful because they allow you to bring your digital map into the physical world. Once you print 
+a map you can hang it on the office wall, distribute to your teams, or simply keep as reference 
+Key features for your GIS 
+desktop computer 
+ 
+Categories of Data used in GIS 
+Cartographic data 
+Data already in map form, and may include such information as the location of rivers, roads, hills, and valleys. 
+Cartographic data may also include survey data and mapping information that can be directly entered into a 
+GIS. 
+Photographic data 
+Photographic interpretation is a major part of GIS. Photo interpretation involves analyzing aerial photographs 
+and assessing the features that appear. 
+Digital data 
+Digital data can also be entered into GIS. An example of this kind of information is computer data collected by
+satellites that show land use—the location of farms, towns, and forests. 
+Spreadsheet 
+GIS can also include data in table or spreadsheet form, such as population demographics. Demographics can 
+range from age, income, and ethnicity. 
+GIS Software Applications 
+GIS software provides the tools to manage, analyze, and effectively display and disseminate spatial 
+information. We need tools to view and edit these data, manipulate them to generate and extract the 
+information we require, and produce the materials to communicate the information we have developed. 
+Main functions of GIS software include: 
+(1) Data Entry (3)Data Management (5) Output 
+- Manual data capture - Documentation - hardcopy Printing 
+- Digital data capture - Compression - Graphic design 
+- Data import - Summarizing - Map design 
+ - copy, emerge - Export format generation 
+ 
+(2) Editing (4) Analysis 
+- Feature editing - Attribute query 
+- Automated error detection - Spatial query 
+- Attribute editing - buffering 
+ - terrain analysis 
+Common GIS applications 
+ArcGIS – the most common software suite in the GIS family. It is not open source though therefore, important 
+to get licensed version in order to enjoy all its functions. ArcGIS was developed by Environmental Systems 
+Research Institute (ESRI) Avoid software piracy. It supports multiple data formats, many data types and 
+structures, and literally thousands of possible operations that may be applied to spatial data. 
+QGIS - Is an open-source software project, an initiative under the Open Source Geospatial Foundation. The 
+software is a collaborative effort by a community of developers and users. QGIS is free, stable, changes 
+smoothly through time, with the source code available so that it can be extended as needed for specific tasks. 
+GeoMedia - originally developed and supported by Intergraph, Incorporated. GeoMedia offers a complete set 
+of data entry, analysis, and output tools. A comprehensive set of editing tools may be purchased, 
+including those for automated data entry and error detection, data development, data fusion, complex 
+analyses, and sophisticated data display and map composition 
+MapInfo - MapInfo is a comprehensive set of GIS products developed by the MapInfo Corporation. MapInfo products are used mainly in GIS business and municipal applications. 
+Common GIS applications Cont…
+Idrisi - Idrisi is a GIS system developed by the Graduate School of Geography of Clark University. I t provides 
+both image processing and GIS functions. Idrisi has been developed and maintained at an educational and 
+research institution, and was initially used primarily as a teaching and research tool. 
+Manifold - Manifold is a relatively inexpensive GIS package with a surprising number of capabilities. Manifold 
+combines GIS and some remote sensing capabilities. Basic spatial data entry and editing support are provided, 
+as well as projections and raster analysis, image display and editing, and output. Manifold GIS providing 
+sophisticated image editing capabilities in a spatially referenced framework. 
+Maptitude - Maptitude is a GIS product focused primarily on spatial analysis in a business environment. Tools 
+support market identification through the integration of income, demographic, and sales data, allocation and 
+store location through transportation analysis, and logistics planning. 
+AUTOCAD MAP 3D - AUTOCAD is the world’s largest-selling computer drafting and design package. Produced 
+by Autodesk, Inc. It supports of engineering disciplines including surveying and civil engineering. 
+Common GIS applications Cont…
+GRASS - Geographic Resource Analysis Support System, is a free, open source GIS that runs on many platform 
+and originally developed by the U.S. Army Construction Engineering Laboratory (CERL). It commonly used in 
+research. 
+MicroImages - MicroImages produces and supports a range of products, including software to edit and view 
+spatial data, software to create digital atlases, and software to publish and serve data on the internet. 
+ERDAS (Earth Resources Data Analysis System) – Was originally developed as an image processing system. The 
+original purpose of the software was to enter and analyze satellite image data. It can be used in commercial 
+spatial data analysis. 
+Bentley Map - Bentley Systems has developed spatial analysis software for mobile device through enterprise 
+levels, with a strong focus on flexible, integrated infrastructure design and development. Bentley has evolved 
+into a general set of tools, including field data collection, photography, map composition, database 
+management, analysis, and reporting. 
+Common GIS applications Cont…
+Smallworld - Smallworld, currently owned by General Electric Energy, is a product suite focused primarily on 
+power and other utility management, and other network systems. Primarily targeted for large organizations, 
+the suite supports common spatial data formats, field data entry, complex, topological 
+network models, integration with corporate databases, component and network design. 
+GIS management Cycle 
+IMPORTANCE OF GIS IN REAL LIFE SITUATIONS 
+ A GIS is also particularly useful at displaying spatial data and reporting the results of spatial analysis. GIS 
+technology can be used compare the locations of different things in order to discover how they relate to
+each other. For example, using GIS, a single map could include sites that produce pollution, such as
+factories, and sites that are sensitive to pollution, such as wetlands and rivers. 
+ GIS is essential tool in government and security organisations. It is a powerful tool used in fighting crime. 
+Using GIS technology, security experts can easily trace thieves in their hiding locations 
+ GIS regularly help in the day-to-day management of many natural and man-made resources, including 
+sewerage, water, power, and transportation networks. 
+ GIS allow us to analyze the relative spatial location of important geographic features. Spatial analyses in a 
+GIS may aid in ensuring sustainable recreation, environmental protection, and other benefits 
+ GIS help us identify and address environmental problems by providing crucial information on where 
+problems occur and who are affected by them. GIS help us identify the source, location, and extent of
+adverse environmental impacts, and may help us devise practical plans for monitoring, managing, and 
+mitigating environmental damage. 
+ GIS can be used in the location of viable remnant plant and animal populations relative to current and 
+future human land uses . Analysis of such information is helpful in planning for continued survival of such 
+species. 
+ GIS of recently has become an important tool used emergency services, flood protection, disaster 
+assessment and management. It can be helpful in the location and identification disaster victims. The GIS 
+matches the address to the nearest emergency service station, a route is then immediately generated 
+based on the street network and traffic, and emergency crews dispatched from the nearest station. It can 
+also be used to land mark disaster incidents and threats that form early warning systems in disaster 
+management. 
+ GIS hospitals and government transport functions. For example emergency vehicles such as ambulances in
+developed world commonly dispatched and routed using GIS. 
+ GIS may be used to document change, mitigate damage, and effectively manage our natural resources. For 
+example GIS images can be used to track eruptions of mountains and such data cab be used in planning 
+evacuation of affected people and mapping of the damages caused. 
+ Many businesses adopt GIS for increased efficiency in the delivery of goods and services. Retail businesses 
+locate stores based on a number of spatially related factors. 
+ GIS aid telecommunication companies to track fraud teams in mobile money payments in various locations 
+basing on the provided coordinates. 
+ Global Navigation Satellite Systems (GNSS), is now incorporated into cars, planes, boats, and trucks to guide people 
+find shortest routes, avoid traffic and reach their final destinations in time. 
+ GIS may aid in disaster assessment and recovery. Emergency response and longer term rebuilding efforts may be
+improved by spatial data collection and analysis 
+ Images taken from aircraft and satellites provide a rich source of data, which may be Interpreted and converted to 
+information that can be used in research and other studies 
+ GIS are also widely used in planning and development. Spatial information about villages, town and cities can be used 
+as source of information for planning and development of a country. Such information may include water sources, 
+sewerage, mean of transport, banks, schools, universities etc. 
+ GIS help the government in property records management and taxation. For example GIS can be used to locate various 
+houses and their owners in a city upon which taxes can be determined. 
+ GIS are widely used to improve public health. Air pollution is a major cause of sickness and death. GIS can be used to 
+locate and map air pollution points in a community. Analysis of such information by public health experts results in 
+improvement of the public health of the people. 
+
+DEPARTMENT OF COMPUTER SCIENCE 
+GEOGRAPHICAL INFORMATION SYSTEM (GIS) 
+SCS3204 
+LECTURER 2 
+INTRODUCTION TO GIS 
+BY 
+Dr. Fredrick Kanobe (Ph.D) 
+Tel contact: 0782-592120 Emails: fkanobe@kyu.ac.ug or fred.Kanobe@gmail.com 
+IMPORTANCE OF GIS IN REAL LIFE SITUATIONS 
+ A GIS is also particularly useful at displaying spatial data and reporting the results of spatial analysis. GIS 
+technology can be used compare the locations of different things in order to discover how they relate to
+each other. For example, using GIS, a single map could include sites that produce pollution, such as
+factories, and sites that are sensitive to pollution, such as wetlands and rivers. 
+ GIS is essential tool in government and security organisations. It is a powerful tool used in fighting crime. 
+Using GIS technology, security experts can easily trace thieves in their hiding locations 
+ GIS regularly help in the day-to-day management of many natural and man-made resources, including 
+sewerage, water, power, and transportation networks. 
+ GIS allow us to analyze the relative spatial location of important geographic features. Spatial analyses in a 
+GIS may aid in ensuring sustainable recreation, environmental protection, and other benefits 
+ GIS help us identify and address environmental problems by providing crucial information on where 
+problems occur and who are affected by them. GIS help us identify the source, location, and extent of
+adverse environmental impacts, and may help us devise practical plans for monitoring, managing, and 
+mitigating environmental damage. 
+ GIS can be used in the location of viable remnant plant and animal populations relative to current and 
+future human land uses . Analysis of such information is helpful in planning for continued survival of such 
+species. 
+ GIS of recently has become an important tool used emergency services, flood protection, disaster 
+assessment and management. It can be helpful in the location and identification disaster victims. The GIS 
+matches the address to the nearest emergency service station, a route is then immediately generated 
+based on the street network and traffic, and emergency crews dispatched from the nearest station. It can 
+also be used to land mark disaster incidents and threats that form early warning systems in disaster 
+management. 
+ GIS hospitals and government transport functions. For example emergency vehicles such as ambulances in
+developed world commonly dispatched and routed using GIS. 
+ GIS may be used to document change, mitigate damage, and effectively manage our natural resources. For 
+example GIS images can be used to track eruptions of mountains and such data cab be used in planning 
+evacuation of affected people and mapping of the damages caused. 
+ Many businesses adopt GIS for increased efficiency in the delivery of goods and services. Retail businesses 
+locate stores based on a number of spatially related factors. 
+ GIS aid telecommunication companies to track fraud teams in mobile money payments in various locations 
+basing on the provided coordinates. 
+ Global Navigation Satellite Systems (GNSS), is now incorporated into cars, planes, boats, and trucks to guide people 
+find shortest routes, avoid traffic and reach their final destinations in time. 
+ GIS may aid in disaster assessment and recovery. Emergency response and longer term rebuilding efforts may be
+improved by spatial data collection and analysis 
+ Images taken from aircraft and satellites provide a rich source of data, which may be Interpreted and converted to 
+information that can be used in research and other studies 
+ GIS are also widely used in planning and development. Spatial information about villages, town and cities can be used 
+as source of information for planning and development of a country. Such information may include water sources, 
+sewerage, mean of transport, banks, schools, universities etc. 
+ GIS help the government in property records management and taxation. For example GIS can be used to locate various 
+houses and their owners in a city upon which taxes can be determined. 
+ GIS are widely used to improve public health. Air pollution is a major cause of sickness and death. GIS can be used to 
+locate and map air pollution points in a community. Analysis of such information by public health experts results in 
+improvement of the public health of the people. 
+ARCGIS DESKTOP APPLICATION 
+ArcGIS Desktop software is comprised of a set of integrated applications, which are accessible from the 
+Start menu of your computer. These include: 
+1. ARCMAP 
+ArcMap is the central application used in ArcGIS. ArcMap is where you display and explore the datasets for 
+your study area, where you assign symbols, and where you create map layouts for printing or publication. 
+ArcMap is also the application you use to create and edit datasets. 
+Functions of ArcMap 
+• Work with maps - exploring information, navigate around your map documents, turn layers on and off, 
+query features to access the rich attribute data that is behind the map. 
+• Print maps —Maps can be printed using arcmMap 
+• Compile and edit GIS datasets – Provides functions for editing your map documents and making updates 
+• Analysis - Arcmap can be used querying or analysis of GIS data and automating some tasks 
+• Organizing your documents - ArcMap includes the Catalog window that enables you to organize all of 
+your GIS datasets and geodatabases, your map documents and other ArcGIS files, your geoprocessing 
+tools, and many other GIS information sets 
+• Publish maps - ArcMap provides a simple user experience for publishing your map documents as map 
+services using ArcGIS Server or ArcGIS Online. 
+• Share maps with other users —ArcMap includes tools that make it easy to share GIS datasets with other 
+users. 
+How to open ArcMap 
+1. Click the Start button on the Windows taskbar. 
+2. Point to Programs. 
+3. Point to ArcGIS. 
+4. Click ArcMap. 
+New ArcMap Screen 
+Common types of Files used in ArcMap 
+• Geodatabase – Geodatabases define, manage, process and store all the types of data that can be
+used in ArcGIS (i.e., feature, rasters, relationships, measurements, attributes, etc) inside either a 
+Microsoft Access database (.mdb) or a full relational database (SQL Server) 
+• Shapefiles - shapefile format is a widely adopted standard and comprises three or more associated 
+files stores various shapes. They use .shp or shx extension. 
+• Layer – (.lyr) stores symbology, symbology classifications, labeling properties, scale dependency, and 
+definition. 
+• Coverages – “A coverage stores a set of thematically associated data considered to be a unit. It
+usually represents a single layer, such as soils, streams, roads, or land use. 
+• Image formats – ArcGIS accepts and uses a variety of image files (.tiff, .jpg, .jp2, .png, etc). 
+• Text files commonly for storing (with x,y coordinates) 
+• Map document (.mxd) A map used to store maps on a file on disk with extension mxd. Each map 
+document contains the specifications for the map layers, the page layout, and all other map 
+properties. Map documents make it easy to save, reuse, and share your work in ArcMap. ArcMap 
+uses .mxt extension as the default for templates created 
+2. ARCCATALOG
+ArcCatalog is the program you use to organize and manage various datasets and documents in ArcGIS. This 
+program allows you browse, search, discover view, manage and administer datasets in ArcGIS. It is the 
+equivalent of windows explorer. 
+How to open ArcCatalog 
+1. Click the Start button on the Windows taskbar. 
+2. Point to Programs. 
+3. Point to ArcGIS. 
+4. Click ArcCatalog 
+ArcCatalog 
+3. ARCSCENE
+ArcScene is a 3D visualization application that allows you to view your GIS data in three dimensions. 
+ArcScene allows you to overlay many layers of data in a 3D environment. 
+How to open ArcScene 
+1. Click the Start button on the Windows taskbar. 
+2. Point to Programs. 
+3. Point to ArcGIS. 
+4. Click ArcScene 
+4. ARCGLOBE 
+ArcGlobe is a 3D visualization application that allows you to view large amounts of GIS data on a globe surface. 
+ArcGlobe provides a new and unique way to view and analyze your GIS data. Spatially referenced data is placed 
+on a 3D globe surface, displayed in its true geodetic location. 
+How to open ArcGlobe 
+1) Click the Start button on the Windows taskbar. 
+2) Point to Programs. 
+3) Point to ArcGIS. 
+4) Click ArcGlobe 
+ArcGlobe 
+ESSENTIAL TERMS TO KNOW IN ARCMAP 
+Layer
+A map layer defines how a GIS dataset is symbolized and labeled in your map views. Each layer represents 
+geographic data in ArcMap such as a particular theme of data. Example map layers include streams and lakes, 
+terrain, roads, political boundaries, parcels, building footprints, utility lines etc. Layers can have different 
+features that can be used differentiate them for example: 
+• Point (e.g., buildings, landmarks). Zero-dimensional. 
+• Line, or arc (e.g., roads and streets, streams, railroads, power lines). One-dimensional. 
+• Polygon (e.g., political entities, census geographies such as tracts). Two-dimensional. 
+• Raster images (e.g., an aerial photograph, scanned topographic map, or an elevation model). 
+Table of contents 
+The table of contents lists all the layers on the map and shows what the features in each layer represent. The 
+check box next to each layer indicates whether its display is currently turned on or off. The order of layers 
+within the table of contents specifies their drawing order in the data frame from bottom to top 
+Table of Contents 
+Labels
+Labels are text strings that are used to label features within map layers. Properties define the attribute 
+column used as the source of the text string and how the label is portrayed in your map. 
+Basemap
+A collection of GIS data that form the background setting for a map. The function of the basemap is to
+provide background detail necessary to orient the location of the map. Typical GIS data make up the layers 
+for a basemap: streets, boundaries, waterways, and aerial or satellite images. 
+Theme – IS a single layer of data for example Housing 
+ 
+View - is a collection of themes 
+ArcMap Interface 
+Catalog 
+Search 
+ArcMap Interface 
+The ArcMap interface is composed several tool bars such as the standard tool bar, tools tool bar etc. Each tool bar 
+perform a number of functions. Use your mouse to point to each of the icons on the tool bars to discover their 
+functions. 
+ Feel free to drag the tool bar and place it any 
+position of your convenience. 
+Description of the Key Interface items of ArcMap 
+Menu Bar – Displays all items of the main menu of the application such File, Edit, Bookmarks …. 
+Table of contents – Used as a panel to display different layers. The table of contents can also be displayed 
+from Windows n the main menu, so is the Catalog and Search. Note that Catalog can be opened in a 
+separate Window but it is convenient to access it via ArcMap. The catalog is helpful when one want to
+connect or access contents from different folders with ease. 
+To open files using Catalog, simply navigate to the file you want to open and drag it into the ArcMap 
+display area. 
+The search panel on Windows is very useful for searching for tools used in ArcMap. However, for new users 
+of the application, it may not be of great importance because one does not know what to search. It is
+advisable that new users of the application use the tool box to explore the tools or functions within the 
+system. 
+
+DEPARTMENT OF COMPUTER SCIENCE 
+GEOGRAPHICAL INFORMATION SYSTEM (GIS) 
+SCS3204 
+LECTURER 3 
+INTRODUCTION TO GIS 
+BY 
+Dr. Fredrick Kanobe (Ph.D) 
+Tel contact: 0782-592120 Emails: fkanobe@kyu.ac.ug or fred.Kanobe@gmail.com 
+Opening an Existing Map in ArcMap 
+ArcGIS installs template maps that can be used in ArcMap. Some of these templates are 
+stored in MapTemplates on your drive C. For example to open the map of Africa take the
+following steps: 
+Click File on ArcMap main menu/ program files (x86)/ArcGIS/Desktop 
+10.8/MapTemplates/Traditional Layouts/ World/ Africa
+It opens the map of Africa as displayed below 
+Sample Existing Map in ArcGIS 
+Saving a map to a new Location 
+ArcMap allows you to save an existing map to a new location of your choice. Create a new 
+folder called ArcMap training. We shall save the map of Africa opened in our new created 
+folder. 
+Click File on the main menu/Select Save AS/ Browse and open your new folder (ArcMap 
+training)/type file name/ click save
+Saving existing map 
+to new location 
+Working with Layers
+Layers basically make references to data sources such as points, lines, polygons 
+shapefiles and raster images. Map layers are commonly displayed in the table of 
+contents (ToC). The table of contents will always appear of the left hand side of the 
+ArcMap window.
+Adding (Connecting) and Removing (Disconnecting) Map Layers in ArcMap
+•Click Add new data Icon 
+• In the add Browser, click to the Connect 
+to folder button 
+• Browse to the folder to connect to and 
+open the shapefile you want to open 
+• Note: After you have done this, you 
+will always be easily and directly 
+connect to the data folder when 
+searching or saving map layer. 
+Connect to 
+Folder Button 
+Disconnecting Map Layers
+You may want to disconnect or remove your fold connection from catalog. Simply do the following: 
+Steps: 
+1. Open Catalog
+2. Right Click the folder Connection you want to remove 
+3. Select Disconnect Folder
+Disconnect folder 
+Option 
+Placing Map layers in ToC using Catalog Window 
+The catalog window has many functions that permits users to use, explore and maintain GIS data. 
+One of the common operations in Catalog windows is the drag and drop once you have connected your folders 
+containing the data. 
+1. Open Catalog window 
+2. Browse the connected folder containing the GIS data you want to view 
+3. Drag and drop the shapefile into the table of contents 
+Dragged Map layer 
+Changing the Layers Display Order 
+ArcMap allows users to add more than one year in the ToC in a predefined order depending on the layer 
+that was placed in the ToC panel. Nevertheless, it permits reorganizing and change the display of layers 
+based on the users’ preference. Steps
+1. Open add more than two layers in the table of contents say: Uganda tertiary institutions; Uganda 
+wild life reserves and Uganda Cities 2020.
+2. Make sure the List by drawing Order button in the ToC is selected 
+3. Drag and drop the item you want to relocate from the current position to a new location 
+In the ToC change the existing map layers to 
+appear in the following order from the top: 
+ 
+1) Uganda Wildlife reservations 
+2) Uganda School Tertiary institutions 
+3) District boundaries 2018 
+4) Cities 2020 
+Changing the Map Layers Color and Symbols 
+In ArcGIS has functionalities for changing the colors and symbols of Map layers. The ArcMap users can change 
+colors of existing Map layers to their preference and save them in new location under new file names. In the 
+example, we shall change the color of Uganda Wild Reserve Map layer to new colors 
+Place the Uganda Wild Reserve in the Table of Contents using the Drag and Drop – Catalog method 
+Right Click the Legend below the Map layer 
+Select the preference color 
+Legend in 
+the ToC 
+Changing Symbols using Uganda Schools Tertiary Institutions
+In the previous Map layers not that Cities and Uganda schools tertiary institutions have symbols. ArcMap has 
+functionalities that allow users to use symbols of their preference. 
+1) Place the Uganda Schools Tertiary institutions layer in the table of contents via Catalog Window 
+2) Click the Legend symbol just below the name of the opened Map layer 
+3) A new windows of symbols is displayed indicating the current symbol. Select a new symbol you want to use 
+and click OK
+Current Symbol 
+Symbol 
+Options 
+Navigating your Map in ArcMap
+By default map layers are displayed in the ToC in full view extent format. ArcGIS however, permits users to zoom 
+in, zoom out and including use of other functionalities to move around your map. 
+Place the Uganda Districts 2018 Map layer in the ToC via Catalog, it opens in full extent view 
+Use the navigation functions to explore your layer as follows: 
+Note
+Zoon In
+Zoon in by clicking the Once 
+Zoom Out
+Zoon out by Clicking Once 
+Fixed Zoom in
+ Fixed Zoom in zooms in a fixed 
+distance from the center of the current 
+display 
+Click the map to zoom a centered on 
+the point you click
+Fixed Zoom Out
+ Fixed Zoom out zooms out a fixed distance from the center of the current zoomed display
+Pan 
+Pan shifts the current map display without altering the current map scale
+•Click the Pan Button 
+•Move the course anywhere into the map display
+•Hold down the left mouse button and drag the mouse in any direction
+Full Previous and Next Extent Views
+Full Extent – Displays all layers in the ToC regardless whether they are turned on or off. Click the full extent 
+button 
+Previous Extent - It returns the map to its previous extent. Use to Previous extent Button move the map 
+to its previous extent 
+Next Extent – This moves forward to the sequence of zoomed extents you have viewed. Use the next extent Button to 
+move the next extent. 
+Additional Navigation Functions in ArcMap 
+ArcMap provides three additional map windows to view the spatial data on your map: 
+ 
+1) Magnifier window - The Magnifier window works like a magnifying glass: as you pass the window over 
+the data, you see a magnified view of the location under the window
+2) Viewer window - A Viewer window behaves like an independent view onto the map, and you can use 
+any of the ArcMap interactive tools inside the window. 
+3) Overview window. The Overview window uses a box to show the extent of your display view within the 
+total extent of your data. You can use the Overview window to navigate the map in the Data view display.
+Note 
+Windows Overview, Magnifier and Viewer 
+are only active in when Map layer is in 
+Data view mode. Hence cannot be used in 
+Data Layout 
+Measuring Distance on a Map 
+ 
+Maps have coordinates that enables users to measure distance along their paths using a mouse and course. 
+However, while map coordinates are in specific units such as meters , the user can change the default unit 
+to units of preference and may be applicable in particular situation. 
+How to change Measurements 
+• Open Map of Uganda showing districts 2018 
+• Click in Full Extent 
+• On the Tools Bar select Measure 
+• Place your cursor in ArcMap Window 
+• Select Choose Units. 
+• Select the new unit to be used 
+Note that the current Unit in use will have 
+a right Mark √. Select the unit you want to 
+use 
+Measure 
+Current Unit 
+Measuring the Distance of a District on a 
+Map 
+In the map of Uganda showing 2018 districts, we 
+are going to measure the length of Kasese 
+District. 
+Steps: 
+• Open the Uganda Map 2018 districts 
+• Select Full Extent display 
+• Change the Unit of distance measure in 
+KM
+• Select measure Line 
+• Move the Mouse in a straight Line from 
+the beginning to the edge of Kasese 
+district and thereafter double click 
+• Close the Measure Window 
+ 
+Length of Kasese District in KM 
+Measuring An Area on a Map 
+In the map of Uganda showing 2018 districts, we 
+are going to measure an Area of Kabong District. 
+Steps: 
+• Open the Uganda Map 2018 districts 
+• Select Full Extent display 
+• Change the Unit of distance measure in 
+KM
+• Select measure Area 
+• Move the Mouse to the Area of the 
+district you want to measure thereafter 
+double click\ 
+• Close the Measure Window 
+ 
+Measure of Area 
+Using Identifier in ArcMap 
+The identifier helps users of ArcMap to find detailed information about a feature displayed in ArcMap, 
+The identifier is located on the Tools toolbar. The Identify tool allows you to see the attributes of your 
+data and is an easy way to learn something about a location in a map. 
+Clicking the Identify tool on a location inside a data frame will present the attributes of the data at
+that location. When identifying features with the Identify tool, the attributes are presented in a 
+feature-by-feature, layer-by-layer manner in the Identify window. 
+Steps 
+• Open the may layer containing the features to be identified 
+• Click Identifier on the Tools toolbar 
+• Click in the Map containing to features to be identified (Buvuma District) 
+Identifier 
+Sample Identifier details for 
+Buvuma District in Uganda 
+Finding Features in Map Layers 
+Using the find toolbar on the Tools bar, users of ArcMap can discover features and attributes of Map Layers in 
+the ArcMap window. The find tool can as well be used to flash the feature, zoom, select, unselect and identify. 
+We shall use the Uganda Counties Map layer to demonstrate this function. 
+Steps: 
+• Open Uganda Counties Map Layers via the catalog Window 
+• Click Find located on the Tools Bar. 
+• Type Jinja in the find and Click Find. 
+• Jinja County and all its attributes are displayed 
+• Right Click any of the features for example JinjaButembe and apply the following functions one after 
+another: 
+• Flash 
+• Zoom 
+• Pan to 
+• Identify 
+• Select 
+• Unselect 
+Illustration of Find function in ArcMap 
+Additional 
+functions 
+Attributes of 
+the feature 
+Illustration of Zoom and Selection of JinjaButembe 
+Select Function in ArcMap 
+The select function can be used to
+highlight subset of features on your map to
+use in subsequence exploration or analysis 
+of data. Other functions such as Zoom in, 
+Zoom Out, identify can be applied also the 
+selected sub features of your map 
+Steps 
+• Open Uganda District Borders Map 
+• Choose Select tool on the tools Bar 
+• Click any of the districts in the Map of
+Uganda 
+• Note that it is high lighted 
+• Right click the selected area and try to
+Zoom in, Zoom Out, Identify 
+
+GEOGRAPHICAL INFORMATION SYSTEM (GIS) 
+SCS3204 
+LECTURER 4 
+GIS FUNDAMENTALS 
+BY 
+Dr. Fredrick Kanobe (Ph.D) 
+Tel contact: 0782-592120 Emails: fkanobe@kyu.ac.ug or fred.Kanobe@gmail.com 
+Setting Selectable Map Layers 
+When working with many layers in the ToC, you can 
+determine which layers you want to select features from 
+by disabling some layers that might not be put to use. 
+Once you set layers selectable ArcMap will only enable 
+you to highlight layers from the selectable layers 
+Steps 
+• Open the layers in your Table of Contents for example: 
+Districts, Counties, Sub counties 
+• Click on the Icon of List by Selection in the ToC 
+• Click off the Selection Boxes for Parishes and Counties 
+• ArcMap sets the ticked boxes layers as unselectable layers. 
+• Click the Select Feature function 
+• Choose by graphic you want to use such Rectangle, Polygon, 
+Circle or Line as you wish 
+Selection Box 
+Select feature Icon 
+List By Selection Icon 
+Not selectable Layers 
+Selectable Layers 
+Selected 
+Districts and 
+Subcounties 
+Creating New Layers from Selected Map Layer 
+In ArcMap, you can create new layer using the selected 
+features in the mother layer. For example you can create 
+layers for particular district from a particular mother 
+layer that has all districts 
+Steps 
+• Select the features of your choice as illustrated in the 
+previous slides 
+• Right Click the mother layer say district in the ToC 
+• Click Create layer from selected features 
+• A new layer is created. Use the ToC to put off some 
+layers so that you can display the new created layer. 
+New Created District Layers for Masindi and Kiryandogo 
+Working with Attributes Tables 
+Attribute Tables are commonly associated with spatial 
+data that forms the map layer and the attribute values 
+contained. 
+The Attribute tables can be used to find and query 
+data in ArcMap. Attribute tables can be a tabular file 
+containing information about a set of geographic 
+features, usually arranged so that each row represents 
+a feature and each column represents one feature 
+attribute. 
+To Open Attribute table for existing Map layer, take the 
+following steps: 
+• Rick Click the Map layer in ToC you want to see the 
+attribute table for example districts 
+• Click on Open Attribute Table 
+• Navigate to the any record of your choice in the 
+table and Click its Row record. 
+• Note that the selected record is also highlighted in
+the Map Layer. Right Click – Zoom, identify, Pan 
+and use the tools tool bar to take measurements 
+Attribute Table 
+Selected Record in 
+the attributes table 
+Using Measure of the 
+selected record from 
+attribute table 
+Selecting feature in
+the attribute table 
+Zooming in the 
+attributes table feature 
+Illustration of some of the functions carried out in Attribute Table 
+Selecting Multiple Records in the Attribute Table 
+ArcMap allows user to select more than one record 
+in the attributes table in two ways: 
+Selecting sequential records in attributes table 
+• Click to the first record to start selection 
+• Hold the shift Key on your key board 
+• Click the last record to be select. All records from 
+the first to the last are selected. 
+Selecting unsequential records in attributes Table 
+• Hold Ctrl key on your key board 
+• Scroll and click on any record that you want to 
+select in your attributes table 
+Records selected 
+sequentially 
+Unsequential selection of 
+records 
+Switching between All records and selected 
+Records 
+While in the attributes table, one may want to 
+display only the selected records. 
+• Use the selected record Icon to view only the 
+selected records. 
+• To view all records click on the All records 
+Icon 
+All records are displayed Displays only selected records 
+Switching Selections 
+With ArcMap, you can switch sections of the map layers that 
+have been selected in the attributes table, select all records 
+and unselected records. 
+The attributes table has an area for options found on the 
+extreme left hand side. 
+Click the Table options button in the Attributes table 
+Try the following options: Find to search for any feature, 
+Switch selection to navigate between selection, Select All to 
+select all records and Clear selection to unclear all selected 
+records 
+Table options button 
+Some of 
+the Table 
+Options 
+Moving or relocating fields in the Attributes Table 
+ ArcMap permits users to rearrange fields in the 
+attributes table using the drag and drop method. 
+For example in the District Map layer you can move 
+the column for Female to appear before Male. Note 
+that all corresponding data are moved. 
+Steps: 
+• Open the District Map Layer in the ToC 
+• Right Click District in the TOC 
+• Open Attributes Table 
+• Click and Drag and Release the Female 
+headings to the Left hand side. Note now it 
+appears before Male 
+Click and Drag to the left hand side 
+Sorting Fields in the Attributes Table 
+ArcMap allows sorting of fields in the 
+attributes table either in ascending or 
+descending order as per the users’ 
+preference. Once fields are sorted, all 
+associated data in the records correspond 
+accordingly. For example districts can be 
+sorted in ascending order in the district 
+table. 
+Steps 
+• Place the District map layer in the table of 
+contents 
+• Right Click District in the ToC 
+• Select Open attributes Table 
+• Right Click the column heading for the 
+district 
+• Select either Ascending or descending 
+Column heading for right clicking 
+Advanced Sorting of Fields 
+At time one may need to reoragnise fields in series 
+of order where some fields under particular 
+column headings have several related fields. For 
+example you want to sort districts in ascending 
+order and in each district you sort sex in 
+descending order. In this situation district 
+becomes the field to sort followed by sex 
+Steps 
+• Place the District map layer in the table of 
+contents 
+• Right Click District in the ToC 
+• Select Open attributes Table 
+• Right Click the column heading for the district 
+• Select Advanced sorting 
+• Select Sort by district - Ascending 
+• Select Sort by sex - Descending 
+Sort by District 
+Sort by sex 
+Getting Statistics in the attributes Table 
+We can obtain descriptive statistics such as mean, max, min, 
+sum and standard deviation in columns that store numeric data 
+in the attributes table. A histogram is also provided showing 
+how the column's values are distributed. Statistics are calculated 
+for all numeric columns in the table. We shall use the districts 
+map layer to get some descriptive statistics on male, female and 
+total population. 
+Steps 
+• Place the Districts Map layer in full extent in the ToC 
+• Right Click District in the ToC 
+• Choose Make this as the only selectable layer 
+• Hold Shift key and use select features tool to select the 
+districts of Jinja, Masaka, Mable 
+• In the ToC Right Click District 
+• Choose Open attributes table 
+• Right click the column heading for total population 
+• Select Statistics 
+Statistics 
+Label Features 
+Labels are text items on a map layer that are 
+delivered from one or more feature attributes that 
+are displayed in the ArcMap windows depending on 
+the scale. For example in the map of layer of districts 
+you may want to display male population for each 
+district 
+Steps 
+• Place the district shapefile in the ToC 
+• Right Click Districts layer in the ToC 
+• Select properties 
+• Select the Label Tab 
+• Select the label field you want to display e.g Male 
+• Check the Label features in this Layer check box 
+• Click Apply 
+Label Tab 
+Label field 
+Label Features in this Layer Check Box 
+
+GEOGRAPHICAL INFORMATION SYSTEM (GIS) 
+SCS3204 
+LECTURER 5 
+GIS FUNDAMENTALS 
+BY 
+Dr. Fredrick Kanobe (Ph.D) 
+Tel contact: 0782-592120 Emails: fkanobe@kyu.ac.ug or fred.Kanobe@gmail.com 
+Convernting Labels to Annotations 
+Converting labels to annotations is commonly used when one wants to relocate a label from one area to another. The 
+labels can be either converted for the entire map layer, selected part of the layer or zoomed selected area. 
+Steps: 
+• Right click the Layer in the table of contents containing the labels you want to convert 
+• Select convert label to annotations 
+• Select in the map option and features in the current extent 
+• Click Convert 
+• Click the Select elements icon 
+• Click on the label you want to relocate and drag to new location 
+Renaming Map Layers Name 
+ArcMap permits users to rename the map layer without using the 
+windows explorer. You can change the name of your map layer to 
+the most appropriate name desired 
+Steps 
+Place the map layer you want to rename in the table of contents 
+for example districts of Uganda 
+• Right click the map layer in the ToC 
+• Click properties 
+• Click the General Tab 
+• In the layer name, the current name is displayed 
+• Type the new name you wand and click OK 
+General Tab Type new name here 
+Creating a Map from Available Map Layers 
+You can create new map from available map layers in ArcMap. The most 
+common maps designed using available layers include: 
+{1} Choropleth Map – It uses color polygon codes to convert information 
+about an area. In a choropleth map, polygons are colored or shared to 
+represent attribute values. We shall use the District map later to create 
+choropleth map for population 
+Steps 
+• Launch ArcMap 
+• Add Uganda Districts in the TOC via catalog 
+• Right Click your map layer (Uganda Districts) in the table of contents 
+• Click Properties 
+• Click General Tab 
+• In the Layer’s name type population of Uganda to change the layer map 
+from Districts 
+• In the ToC Right Click Population of Uganda, Click Properties 
+• Click Symbology Tab 
+• In the Show Box Click Quantities and Graduated color 
+• In the field box Click the value for Population 
+• Select the Color Ramp 
+• Click OK 
+Designed Map of Uganda showing 
+Population 
+Saving your Choropleth Map 
+Once you have completed designing your map layer. It can be saved an independent and new map extracted from 
+the mother layer. 
+Steps 
+• Flick File on the Main menu 
+• Select Save As 
+• Browse and identify location where to save your Choropleth Map 
+• Give it a new file name eg. Uganda districts by pop. 
+• Click Save 
+Save As Options 
+Illustration of some of the functions carried out in Attribute Table 
+Changing Map layer Scale 
+ArcMap users can change the scale of the 
+existing layer in the simplest way by typing 
+the new scale directly in the Scale text Bar 
+Place your map layer say Uganda Districts in 
+the ToC 
+Type new Scale here 
+Creating Custom Classes in Legend 
+When you create a map layer, note that ArcMap 
+automatically sets the legend using the default value 
+in classification. In the previous new Choropleth map 
+layer created, the default value was five. To set your 
+custom classes in the legend, take the following steps: 
+• Open your Choropleth Map previous designed 
+(Population of Uganda) in the ToC 
+• Right Click your Map layer in the ToC 
+• Click Properties 
+• Click Symbology 
+• Under Classification drop down menu select a value 
+e.g. 9 then Click Apply and OK 
+Select 
+Classification 
+Value 
+Displaying Descriptive statistics Using Classification 
+Users of ArcMap can as well display descriptive 
+statistics of Geoata using the classification function 
+Steps 
+• Open your Choropleth Map previous designed 
+(Population of Uganda) in the ToC 
+• Right Click your Map layer in the ToC 
+• Click Properties 
+• Click Symbology 
+• Under Classification drop down menu select a value 
+• Click Classify 
+Click Classify 
+Descriptive Statistics 
+Illustration of Descriptive Statistics via Classification 
+(2) Point Feature Maps – These use point markers to 
+display spatial patterns in point data. To create point 
+Map take the following steps: 
+• Launch ArcMap 
+• Add Uganda Districts in the TOC via catalog 
+• Right Click your map layer (Uganda Districts) in the 
+table of contents 
+• Click Properties 
+• Click General Tab 
+• In the Layer’s name type population of Uganda to 
+change the layer map from Districts 
+• In the ToC Right Click Population of Uganda, Click 
+Properties 
+• Click Symbology Tab 
+• In the Show Box Click Quantities and Graduated 
+Symbols 
+• In the field box Click the value for Population 
+• Select the Color Ramp 
+• Click OK 
+Select Graduated Symbols 
+Illustration of Point Featured Map 
+Creating Queries in ArcMap 
+Queries are used to determine which features a Map layer 
+displays. Queries extra features to display based on the set 
+parameters. In the District Map layer you may want to display 
+only districts with total population less or equal to 80000 
+Steps 
+• Place the district Map layer in the ToC 
+• Right Click the district Map Layer in the table of contents 
+• Click Properties 
+• Click Definition Query Tab 
+• Click Query builder 
+• Double Click Totalpop 
+• Select <= operator 
+• Click Get Unique Values 
+• Double Click the Value you want to use 
+• Click Ok, Apply Click Query Builder 
+Definition Query Tab Operators 
+Values 
+Fields 
+Creating Hyperlink 
+Hyperlink is commonly a button or text or image that points to 
+another location. ArcMap allows users to create hyperlinks to other 
+location such as websites. For example to create a hyperlink for Jinja 
+district take the following steps 
+• Place the Uganda District map layer in the ToC 
+• On the tools toolbar click identify icon 
+• Click on Jinja city 
+• In the Identify window, Right Click Jinja City 
+• Click Add Hyperlink 
+• Select either to Document or URL 
+• Browse the document to link or Type URL to be linked 
+Linking to URL 
+Linking to Document 
+Launching Hyperlink 
+To open your created Hyperlink take the following steps”
+On the Tools bar Click the Launch Hyperlink Button 
+Place the course in map layer feature where you created the Hyperlink and Click Once 
+Hyperlinked Documents 
+Creating Pop Up in ArcMap 
+Pop Ups are commonly used as short cuts for displaying attributes of features in a Map Lay. To create your Pop up for from 
+the Uganda District Map Layer take the following steps: 
+• Place the Uganda District Map layer in the ToC 
+• Right Click the layer 
+• Click Prosperities 
+• Click the HTML popup 
+• Make sure the following Boxes are checked √ 
+o Show content for this layer using HTML popup 
+o As a table of the visible fields 
+o Display coded value descriptions in all HTML 
+• Click Apply and OK 
+• Right Click the layer in the ToC 
+• Click Prosperities 
+• Click on the Fields Table and uncheck the fields you do not want to be visible , OK 
+• On the Tools toolbar Click on the HTML popup icon 
+• Move your cursor to any District of your choice and Click 
+Popups 
+Creating Map Tips 
+Map tips are used for disclosing and 
+displaying labels text for map layers in 
+ArcMap. Once you have created the 
+Map tips, any label for features in your 
+map layer are displayed. 
+Steps 
+• Place your District Map layer in the 
+table of contents 
+• Right Click the District Map layer 
+• Click Properties‘
+• Click Display Tab 
+• Check the Show the Map tips using 
+display expression check Box 
+• Click Ok 
+• Hover over any district in your map 
+layer to see the Tips. 
+Map tips 
+
+GEOGRAPHICAL INFORMATION SYSTEM (GIS)
+SCS3204
+LECTURER 6
+GIS FUNDAMENTALS
+BY 
+Dr. Fredrick Kanobe (Ph.D)
+Tel contact: 0782-592120 Emails: fkanobe@kyu.ac.ug or fred.Kanobe@gmail.com
+Moving Labels to Annotations
+Converting labels to annotations is commonly used when one wants to relocate a label from one area to another. The 
+labels can be either converted for the entire map layer, selected part of the layer or zoomed selected area.
+Steps:
+• Right click the Layer in the table of contents containing the labels you want to convert
+• Select convert label to annotations
+• Select in the map option and features in the current extent
+• Click Convert
+• Click the Select elements icon
+• Click on the label you want to relocate and drag to new location 
+Renaming Map Layers Name
+ArcMap permits users to rename the map layer without using the 
+windows explorer. You can change the name of your map layer to 
+the most appropriate name desired
+Steps
+Place the map layer you want to rename in the table of contents 
+for example districts of Uganda
+• Right click the map layer in the ToC
+• Click properties
+• Click the General Tab
+• In the layer name, the current name is displayed
+• Type the new name you wand and click OK
+General Tab Type new name here
+Creating a Map from Available Map Layers
+You can create new map from available map layers in ArcMap. The most 
+common maps designed using available layers include:
+{1} Choropleth Map – It uses color polygon codes to convert information 
+about an area. In a choropleth map, polygons are colored or shared to 
+represent attribute values. We shall use the District map later to create 
+choropleth map for population
+Steps
+• Launch ArcMap 
+• Add Uganda Districts in the TOC via catalog
+• Right Click your map layer (Uganda Districts) in the table of contents 
+• Click Properties
+• Click General Tab 
+• In the Layer’s name type population of Uganda to change the layer map 
+from Districts
+• In the ToC Right Click Population of Uganda, Click Properties
+• Click Symbology Tab
+• In the Show Box Click Quantities and Graduated color
+• In the field box Click the value for Population
+• Select the Color Ramp
+• Click OK
+Designed Map of Uganda showing 
+Population
+Saving your Choropleth Map
+Once you have completed designing your map layer. It can be saved an independent and new map extracted from 
+the mother layer.
+Steps
+• Flick File on the Main menu
+• Select Save As
+• Browse and identify location where to save your Choropleth Map
+• Give it a new file name eg. Uganda districts by pop.
+• Click Save
+Save As Options
+Illustration of some of the functions carried out in Attribute Table
+Changing Map layer Scale
+ArcMap users can change the scale of the 
+existing layer in the simplest way by typing 
+the new scale directly in the Scale text Bar
+Place your map layer say Uganda Districts in 
+the ToC
+Type new Scale here
+Creating Custom Classes in Legend
+When you create a map layer, note that ArcMap 
+automatically sets the legend using the default value 
+in classification. In the previous new Choropleth map 
+layer created, the default value was five. To set your 
+custom classes in the legend, take the following steps:
+• Open your Choropleth Map previous designed 
+(Population of Uganda) in the ToC
+• Right Click your Map layer in the ToC
+• Click Properties
+• Under Classification drop down menu select a value 
+e.g. 9 then Click Apply and OK
+Select 
+Classification 
+Value
+Displaying Descriptive statistics Using Classification
+Users of ArcMap can as well display descriptive 
+statistics of Geoata using the classification function
+Steps
+• Open your Choropleth Map previous designed 
+(Population of Uganda) in the ToC
+• Right Click your Map layer in the ToC
+• Click Properties
+• Under Classification drop down menu select a value 
+• Click Classify
+Click Classify
+Descriptive Statistics
+Illustration of Descriptive Statistics via Classification
+(2) Point Feature Maps – These use point markers to 
+display spatial patterns in point data. To create point 
+Map take the following steps:
+• Launch ArcMap 
+• Add Uganda Districts in the TOC via catalog
+• Right Click your map layer (Uganda Districts) in the 
+table of contents 
+• Click Properties
+• Click General Tab 
+• In the Layer’s name type population of Uganda to 
+change the layer map from Districts
+• In the ToC Right Click Population of Uganda, Click 
+Properties
+• Click Symbology Tab
+• In the Show Box Click Quantities and Graduated 
+Symbols
+• In the field box Click the value for Population
+• Select the Color Ramp
+• Click OK
+Select Graduated Symbols
+Illustration of Point Featured Map
+Creating Queries in ArcMap
+Queries are used to determine which features a Map layer 
+displays. Queries extra features to display based on the set 
+parameters. In the District Map layer you may want to display 
+only districts with total population less or equal to 80000
+Steps
+• Place the district Map layer in the ToC
+• Right Click the district Map Layer in the table of contents
+• Click Properties
+• Click Definition Query Tab
+• Click Query builder
+• Double Click Totalpop
+• Select <= operator 
+• Click Get Unique Values
+• Double Click the Value you want to use
+• Click Ok, Apply Click Query Builder
+Definition Query Tab Operators
+Values
+Fields
+Creating Hyperlink
+Hyperlink is commonly a button or text or image that points to 
+another location. ArcMap allows users to create hyperlinks to other 
+location such as websites. For example to create a hyperlink for Jinja 
+district take the following steps
+• Place the Uganda District map layer in the ToC
+• On the tools toolbar click identify icon 
+• Click on Jinja city
+• In the Identify window, Right Click Jinja City
+• Click Add Hyperlink
+• Select either to Document or URL
+• Browse the document to link or Type URL to be linked
+Linking to URL
+Linking to Document
+Launching Hyperlink
+To open your created Hyperlink take the following steps”
+On the Tools bar Click the Launch Hyperlink Button
+Place the course in map layer feature where you created the Hyperlink and Click Once 
+Hyperlinked Documents
+Creating Pop Up in ArcMap
+Pop Ups are commonly used as short cuts for displaying attributes of features in a Map Lay. To create your Pop up for from 
+the Uganda District Map Layer take the following steps:
+• Place the Uganda District Map layer in the ToC
+• Right Click the layer
+• Click Prosperities
+• Click the HTML popup
+• Make sure the following Boxes are checked √
+o Show content for this layer using HTML popup
+o As a table of the visible fields
+o Display coded value descriptions in all HTML
+• Click Apply and OK
+• Right Click the layer in the ToC
+• Click Prosperities
+• Click on the Fields Table and uncheck the fields you do not want to be visible , OK
+• On the Tools toolbar Click on the HTML popup icon
+• Move your cursor to any District of your choice and Click 
+Popups
+Creating Map Tips
+Map tips are used for disclosing and 
+displaying labels text for map layers in 
+ArcMap. Once you have created the 
+Map tips, any label for features in your 
+map layer are displayed. 
+Steps
+• Place your District Map layer in the 
+table of contents
+• Right Click the District Map layer
+• Click Properties‘
+• Click Display Tab
+• Check the Show the Map tips using 
+display expression check Box
+• Click Ok
+• Hover over any district in your map 
+layer to see the Tips.
+Map tips
+
+GEOGRAPHICAL INFORMATION SYSTEM (GIS) 
+SCS3204 
+LECTURER 7 
+GIS FUNDAMENTALS 
+BY 
+Dr. Fredrick Kanobe (Ph.D) 
+Tel contact: 0782-592120 Emails: fkanobe@kyu.ac.ug or fred.Kanobe@gmail.com 
+Generating Report in ArcMap 
+ArcMap has inbuilt functions that permit users to generate reports. Reports in GIS are very important because the help 
+management to execute their duties with informed mind. Following are some of the importance of reports in GIS 
+environment: 
+1. Decision making – Generated reports via the ArcMap or ArcGIS provide guides or highlights that management based on
+to take informed decision that impact the organisation 
+2. Managerial tool – Reports are used by most managers as managerial tool to carry out managerial functions such as
+coordination, controlling and motivation of the human resources. Managerial tasks can only be executed successfully 
+based on update and reliable reports. 
+3. Planning – Reports generated by ArcGIS can be used by management and other organisation staff for planning and 
+allocation of resources in a working environment 
+4. Investigation – Report at times outline facts or information that require further investigation or research in order to
+obtain rich data about a phenomena 
+5. Evaluation of Performance – Reports are used in the evaluation of performance of an organisation or project. They help 
+in checking whether the organisation or project is on course and achieving the set objectives 
+6. Monitoring purposes – Reports in GIS are very important in motoring of on going activities in a project or an
+organisation. 
+7. Dissemination of findings – Reports also used in sharing of the findings about an going or completed activities or tasks. 
+How to Generate A report in ArcMap 
+• Open or place your map layer in the ToC 
+• Double Click its Name in the TOC and give it a new name 
+• Click View, Select Data View 
+• Right Click your map layer in the ToC 
+• Open Attributes 
+• Organise your data in the attributes table the way you 
+want. E.g. rearrange the columns, sort etc. 
+• Close the Attributes Table 
+• Click View on the Main menu, Select Reports, Create 
+Report 
+• Select the Fields you want to be displayed in your Report 
+• Click Next 
+• Set Priority field (s) 
+• Click Next 
+• Specify sorting order if not yet set 
+• Click on Summary Options and select the options you want 
+• Click OK then Select Next 
+• Select the report layout and Orientation Click Next 
+• Select the preferred report style 
+Fields to 
+appear in 
+the report
+First Priority 
+Field
+Summary Options 
+• Click Next 
+• Provide or type your report name or title 
+• Click Finish 
+Sample Report 
+Providing Table of Contents to your Report 
+The table of contents in the report provides an outline of all the pages in your report on the right hand side of the report. 
+Steps 
+• On the Report Tools Menu click on Table of contents Icon 
+Table of 
+Contents 
+Table of 
+contents Icon 
+Saving A report using the existing Name 
+At times you may want to save your report using on the current 
+name. This can be done with the following steps: 
+• Simply Click in the Save Icon on the Reports Menu. Note that if
+the report has not been save before, it prompts for file and route 
+• Type file name you and browse location where to save your file 
+and Click Save name and location confirmed 
+Type report file name here 
+Browse location where to save 
+the report e 
+Saving A report using the existing Name 
+ArcMap like other applications permits users to 
+save an existing report and giving it a new name. 
+Note that changing a report name does not alter 
+the contents of the report, only the name of the 
+report changes. 
+Steps 
+• On the Report Tools Menu, Click Save As Icon. 
+• Browse your computer and locate where to 
+save the report 
+• Remove the current name and type the new 
+name for your report 
+• Click Save 
+Click here to Save As new name 
+Exporting your Report as A file 
+ArcMap allows users to export generated 
+report in form of a file such as PDF, text, RTF, 
+Excel, TIF at desired location on your PC. 
+Steps 
+• On the Reports Main menu 
+• Click on the Export Report as File Icon 
+• Select the file type you want to use 
+• Browse and locate where to export the file 
+• Type File name 
+• Click OK 
+Export Report to File 
+Scroll and select File type you want to use 
+Browse and select location where to Save Type file name 
+Adding Report to ArcMap layer 
+ArcMap also has functions that enable users 
+to add report to the map layer. 
+Steps 
+• On the Report Main Menu 
+• Click on Add report to ArcMap 
+• Specify whether to add all pages, current 
+page or particular page 
+• Click Ok 
+Click Add report to ArcMap Layer 
+Specify report pages to
+add to your map layer 
+Printing A report 
+You can as well make hard copy print out of your 
+report in ArcMap. 
+Steps 
+• On the ArcMap Report Main menu, Click on 
+the Print Icon 
+• Specify the Printer 
+• Click Print 
+Copying ArcMap Report 
+ArcMap permits you to copy report on the clipboard so 
+that you can paste it in other applications such as Ms
+Word. 
+Steps 
+• On the ArcMap reports main menu Click Copy Icon 
+• Open the application such as Ms. Word where to paste 
+the report 
+• Click Ctrl V or Paste icon on the home menu 
+Click the Copy Icon 
+Other Functions on the ArcMap Reports Main Menu 
+Displays Single Page 
+Displays multiple Pages 
+Allows scroll pages Zoom in 
+Zoom out 
+Creating Graphs or Charts in ArcMap 
+Graphs condense large amount of information that can 
+be easy to understand. Graphs in ArcGIS perform the 
+following functions: 
+Summarizing data in the most simpler way 
+Identification of key factors in a study 
+Categorisation of themes or trends of events 
+How to create Graphs in ArcMap 
+• On the View, Click Graph 
+• Click Create Graph 
+• Select Type of Graph you want to create 
+• Select Field Value (Figures in your table) normally to 
+appear on your Vertical axis for example Population 
+• Select the Field label to appear on your horizontal 
+Axis such as Regions 
+• Click Next 
+• Type the graph title 
+• Click Finish 
+Vertical Axis 
+Horizontal Axis 
+Types of Graphs 
+Outputting Graph 
+In ArcMap you can output your graph as Saved a document or 
+Export it as an Image. 
+Steps 
+• Right Click your graph while in ArcMap Layer 
+• Click Save if you want to Save your Map or Export to export it 
+• Select Copy if you want to copy your graph and paste in 
+another application such as Ms. Word 
+• Select the format you and Click Save to save it 
+• Send to send it somewhere else 
+• Preview to preview your graph 
+File Formats for your graph 
+Export graph 
+Using Geodatabase in ArcGIS 
+ArcGIS geodatabase is a collection of various geographical 
+datasets stored in a common file system. 
+Geodatabase in ArcGIS serve the following purposes: 
+1. Improving flexibility and usability- it contains files that 
+store and manage geospatial data. It operates like a 
+folder and allows viewing files in it
+2. Facilitates data sharing – Can easily share or migrate 
+data from one location to another 
+3. Improves Editing – It permits multiple users to edit the 
+file at varying locations. 
+4. Allows compression – Raster data can be compressed 
+and stored in geodatabase to save on memory and 
+space 
+How to Create an Empty Geodatabase 
+• Open Catalogue and locate the position where to create 
+your empty Geodatabase 
+• Right Click the folder where to create the Geodatabase 
+• Click New, Click New File Geodatabase 
+• Type the name for your Geodatabase 
+Importing Shape files in Geodatabase 
+Once you are done with creating empty geodatabase, 
+ArcMap allows importation of shapefile (s) into your 
+database. 
+Steps: 
+• Right Click your Geodatabase name in Catalogue 
+• Click Import 
+• Select either Feature Class (single) to import single 
+feature or 
+• Feature class multiple to import multiple features 
+• Browse and locate the shape files to import 
+• Select the shape files to import and Click Ok 
+Browse the 
+shape files 
+Compressing Geodatabase 
+Geodatabase file compression involves reducing a file size by 
+re-encoding the file data to use fewer bits of storage than 
+the original file. 
+Steps: 
+• Open Catalogue 
+• Right Click your geodatabase file 
+• Click Administration 
+• Click Compress File Geodatabase 
+Uncompressing you Geodatabase File 
+Steps 
+• Open Catalogue 
+• Right Click your geodatabase File Click Administration 
+• Click uncompress File Geodatabase 
+Customizing Tool Bars in ArcMap 
+ArcMap has a range of tool bars that perform various 
+functions. However, not all these tool bars are visible. Only 
+the most used tool bars such as the standard tool bar, Layout 
+tool bar and tools tool are displayed. To customize and view 
+more other tool bars take the following steps: 
+• Click Customize found at the extreme right hand side of 
+any visible tool bar 
+• Customize tools bar is displayed 
+• Tick the Check Box for the tool bar you want to use. E.g. 
+Editor then Click Close 
+Tool Bars 
+Customize 
+Modifying or Editing Data in the Attributes Table 
+At times you may want to make changes, correct errors, or add field in your 
+attributes table. ArcMap has the editor function that permits users to modify 
+the attributes table contents. It is important however, to make sure your Editor 
+Tools bar is displayed. 
+Put on your Editor Tools bar as previously explaining in customizing tools bar 
+before you modify your attributes table 
+Adding a new field to the attributes Table 
+Steps 
+• Open your Attributes Table for the map layer 
+• Right Click the map layer name in the ToC 
+• Click on the Table Options (First Icon on the extreme left hand side of the 
+table) 
+• Click Add Field 
+• Type Field Name 
+• Select the Field type 
+• Click OK 
+Note that a new field is added at the table 
+Type field name here 
+Select 
+field 
+type 
+here 
+Editing Attributes Table Contents 
+This involves renaming field names, adding new contents to 
+new fields, correcting contents of existing fields and adding 
+new data to existing data, 
+• Steps 
+• Open your Attributes Table 
+• On the Editor menu bar Click Start Editing. 
+• Make all the changes you want, add data to new field, make 
+corrections etc. 
+• On the Editor menu, select Stop Editing 
+• Save changes made to the attributes Table 
+
+GEOGRAPHICAL INFORMATION SYSTEM (GIS) 
+SCS3204 
+LECTURER 8 
+GIS FUNDAMENTALS 
+BY 
+Dr. Fredrick Kanobe (Ph.D) 
+Tel contact: 0782-592120 Emails: fkanobe@kyu.ac.ug or fred.Kanobe@gmail.com 
+Using Geodatabase in ArcGIS 
+ArcGIS geodatabase is a collection of various geographical 
+datasets stored in a common file system. 
+Geodatabase in ArcGIS serve the following purposes: 
+1. Improving flexibility and usability- it contains files that 
+store and manage geospatial data. It operates like a 
+folder and allows viewing files in it
+2. Facilitates data sharing – Can easily share or migrate 
+data from one location to another 
+3. Improves Editing – It permits multiple users to edit the 
+file at varying locations. 
+4. Allows compression – Raster data can be compressed 
+and stored in geodatabase to save on memory and 
+space 
+How to Create an Empty Geodatabase 
+• Open Catalogue and locate the position where to create 
+your empty Geodatabase 
+• Right Click the folder where to create the Geodatabase 
+• Click New, Click New File Geodatabase 
+• Type the name for your Geodatabase 
+Importing Shape files in Geodatabase 
+Once you are done with creating empty geodatabase, 
+ArcMap allows importation of shapefile (s) into your 
+database. 
+Steps: 
+• Right Click your Geodatabase name in Catalogue 
+• Click Import 
+• Select either Feature Class (single) to import single 
+feature or 
+• Feature class multiple to import multiple features 
+• Browse and locate the shape files to import 
+• Select the shape files to import and Click Ok 
+Browse the 
+shape files 
+Compressing Geodatabase 
+Geodatabase file compression involves reducing a file size by 
+re-encoding the file data to use fewer bits of storage than 
+the original file. 
+Steps for compressing entire Geodatabase: 
+• Open Catalogue 
+• Right Click your geodatabase file 
+• Click Administration 
+• Click Compress File Geodatabase 
+Uncompressing you Geodatabase File 
+Steps 
+• Open Catalogue 
+• Right Click your geodatabase File Click Administration 
+• Click uncompress File Geodatabase 
+Steps compressing Content of the Geodatabase: 
+• Open Catalogue 
+• Right Click your geodatabase file 
+• Click Manage, Select Administration 
+• Click Compress File Geodatabase 
+Customizing Tool Bars in ArcMap 
+ArcMap has a range of tool bars that perform various 
+functions. However, not all these tool bars are visible. Only 
+the most used tool bars such as the standard tool bar, Layout 
+tool bar and tools tool are displayed. To customize and view 
+more other tool bars take the following steps: 
+• Click Customize found at the extreme right hand side of 
+any visible tool bar 
+• Customize tools bar is displayed 
+• Tick the Check Box for the tool bar you want to use. E.g. 
+Editor then Click Close 
+Tool Bars 
+Customize 
+Modifying or Editing Data in the Attributes Table 
+At times you may want to make changes, correct errors, or add field in your 
+attributes table. ArcMap has the editor function that permits users to modify 
+the attributes table contents. It is important however, to make sure your Editor 
+Tools bar is displayed. 
+Put on your Editor Tools bar as previously explaining in customizing tools bar 
+before you modify your attributes table 
+Adding a new field to the attributes Table 
+Steps 
+• Open your Attributes Table for the map layer 
+• Right Click the map layer name in the ToC 
+• Click on the Table Options (First Icon on the extreme left hand side of the 
+table) 
+• Click Add Field 
+• Type Field Name 
+• Select the Field type 
+• Click OK 
+Note that a new field is added at the table 
+Type field name here 
+Select 
+field 
+type 
+here 
+Editing Attributes Table Contents 
+This involves adding new contents to new fields, correcting 
+contents of existing fields and adding new data to existing 
+data, 
+• Steps 
+• Open your Attributes Table 
+• On the Editor menu bar Click Start Editing. 
+• Make all the changes you want, add data to new field, make 
+corrections etc. 
+• On the Editor menu, select Stop Editing 
+• Save changes made to the attributes Table 
+Geoprocessing
+It involves extracting subset spatial features of map layer using 
+attributes or queries, aggregating polygons into larger 
+polygons as well as appending two layers into a single map. 
+Queries help in easily retrieve data based on set parameters. 
+Data retrieved using queries can later be manipulated for 
+various purposes. 
+Using Data queries to Extra features of your Map layer 
+We shall use selective query create the map of Bukedi region 
+from the Uganda District Map Layer. 
+Steps 
+o Place your Uganda district Map layer in the ToT 
+o Right the main menu, Choose Selection, Select by 
+Attributes 
+o From the layers field drop down Click F15regions 
+o Click = sign 
+o Click the unique Values button and then use the unique 
+values box to double Click Bukedi 
+o Click Apply and Close 
+Convert the select features into classic Map
+o In the Table of contents Right Click choose Selection 
+and Zoom to selected features 
+o In the Table of contents Right Click, Select Data, 
+choose Export Data 
+o Click OK and Yes 
+o Check your Table of Contents now has the exported 
+feature. Try to uncheck and check the box you want to 
+display 
+Removing Selection from the Map layer 
+You can remove or unselect the selected features on the 
+map layer by taking the following steps: 
+o On the Main menu, Choose Selection 
+o Click, Clear selected features 
+Saving Your Extracted Map Features 
+You can easily save your new extract map features created with the Selection Attributes by taking the 
+following steps: 
+o On the Main menu, Click Geoprocessing 
+o Click Clip 
+o In the Input Features drop down select the mother input layer from which you extracted the feature 
+o In the Clip features drop down select the exported extra features 
+o In the Output feature Class, either connect to a folder Or create new folder where to save your extra. 
+If you have connected to an existing folder, type name of your extract then Save. To save in a new 
+folder type the name of the new folder followed by name of your extra and save. 
+o Click Ok
+Note the newly saved feature map appear in your TOT and in the Catalogue 
+Viewing Statistics of Selected Query/Attributes 
+ArcMap allows users to view and display the 
+descriptive statistics for the selected map features in 
+the queries. 
+Steps 
+o On the main menu Click Selection 
+o Click Statistics 
+o Specify the map layer you want to view 
+statistics 
+o In the field dropdown list select the field 
+to be used. Note that only numeric fields 
+can be selected for statistics 
+Emerging Several Features into One Layer 
+Sometimes you may want to integrate two or more layers into a single layer. For example 
+you want to build a population layer for adjacent regions in Uganda but not for the entire 
+Name. Create and extra features for Buganda and Busoga regions using previous steps for 
+extracting using selective Attributes and Queries 
+After create two regions take the following steps to emerge them. 
+o On the main menu Click Geoprocessing 
+o Click Merge 
+o In the Input Datasets, Select Buganda and Busoga one after another 
+o In the Output Dataset connect to a folder or create new folder where to save your 
+merger, 
+o Provide the new name for the merged features. 
+o Save and close 
+Select the features you want 
+to emerge 
+If necessary specify the 
+destination folder or location for 
+the merged features 
