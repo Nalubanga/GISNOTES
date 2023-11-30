@@ -1,37 +1,4 @@
-DEPARTMENT OF COMPUTER SCIENCE 
-GEOGRAPHICAL INFORMATION SYSTEM (GIS) 
-SCS3204 
-LECTURER 1 
-INTRODUCTION TO GIS 
-BY 
-Dr. Fredrick Kanobe (Ph.D) 
-Tel contact: 0782-592120 Emails: fkanobe@kyu.ac.ug or fred.Kanobe@gmail.com 
-Course Description 
-This course is to provide both a solid theoretical understanding and a comprehensive practical introduction to
-the use of geographic information systems, GIS-related terminologies and spatial data basics for the analysis 
-and solution of different environmental problems. It introduces common image processing software packages 
-and how to use them, 
-Course Outcome 
-By the end of the course, you should be able to: 
- Demonstrate an understanding of the GIS 
- Show knowledge of the basic principles underlying the GIS/model-based management systems 
- Demonstrate skills in GIS problem-solving techniques for sustainable planning and management 
- Input data in a GIS software tool 
- Design, create, maintain, and data integrate in a GIS software 
-REFERENCES: 
- Mich Paul Bolstad . (2016). GIS Fundamentals: A First Text on Geographic Information Systems, 5th edition. 
-Eider Press 
- Michael N. DeMers. (2009). GIS For Dummies. For Dummies; 1 edition. ISBN-10: 0470236825, 
- ISBN-13: 978-0470236826 
- Paul A. Longley, Mike Goodchild, David J. Maguire, David W. Rhind . (2010). Geographic Information 
-Systems and Science. Wiley; 3 edition. ISBN-10: 0470721448, ISBN-13: 978-0470721445 
- Law, Amy Collins. (2013). Getting to Know ArcGIS for Desktop. Esri Press; Third Edition . 
- Tim Ormsby, Eileen J. Napoleon, Robert Burke, Carolyn Groessl. (2010). Getting to Know ArcGIS Desktop. 
-Esri Press; Second Edition, for ArcGIS 10 edition. ISBN-10: 1589482603, 
- Keith, C. Clarke.(2010). Getting Started with Geographic Information Systems (5th Edition). Prentice Hall; 5 
-edition. ISBN-10: 0131494988, ISBN-13: 978-0131494985 
- Indy Hurt, Keith C. Clarke. (2010). GIS Exercise Workbook for Getting Started with Geographic Information 
-Systems. Prentice Hall; 5 edition. ISBN-10: 0321697960, ISBN-13: 978-0321697967 
+ 
 GEOGRAPHICAL INFORMATION SYSTEM (GIS) 
 A system that creates, manages, analyses and maps all types of data. GIS connects all types of data to a map 
 with all descriptive information hence providing a foundation for mapping and analysis that is used in science 
@@ -60,6 +27,7 @@ position. The Geographical Positioning Unit (GPS) was originally developed by US
 use but now any one can use GPD device. Commonly used in surveying and mapping. 
 Mobile devices: Various mobile devices with professional GIS features are used as GPS hardware used in data 
 collection 
+
 Devices used in GIS 
 Desktop Computer - You’ll need a large-display monitor, lots of RAM (more than 4 GB recommended), 
 and plenty of extra space on the hard drive where you can upload your data for later use 
@@ -86,6 +54,7 @@ GIS Software Applications
 GIS software provides the tools to manage, analyze, and effectively display and disseminate spatial 
 information. We need tools to view and edit these data, manipulate them to generate and extract the 
 information we require, and produce the materials to communicate the information we have developed. 
+
 Main functions of GIS software include: 
 (1) Data Entry (3)Data Management (5) Output 
 - Manual data capture - Documentation - hardcopy Printing 
@@ -98,12 +67,13 @@ Main functions of GIS software include:
 - Automated error detection - Spatial query 
 - Attribute editing - buffering 
  - terrain analysis 
+
 Common GIS applications 
-ArcGIS – the most common software suite in the GIS family. It is not open source though therefore, important 
+-> ArcGIS – the most common software suite in the GIS family. It is not open source though therefore, important 
 to get licensed version in order to enjoy all its functions. ArcGIS was developed by Environmental Systems 
 Research Institute (ESRI) Avoid software piracy. It supports multiple data formats, many data types and 
 structures, and literally thousands of possible operations that may be applied to spatial data. 
-QGIS - Is an open-source software project, an initiative under the Open Source Geospatial Foundation. The 
+->QGIS - Is an open-source software project, an initiative under the Open Source Geospatial Foundation. The 
 software is a collaborative effort by a community of developers and users. QGIS is free, stable, changes 
 smoothly through time, with the source code available so that it can be extended as needed for specific tasks. 
 GeoMedia - originally developed and supported by Intergraph, Incorporated. GeoMedia offers a complete set 
@@ -111,6 +81,7 @@ of data entry, analysis, and output tools. A comprehensive set of editing tools 
 including those for automated data entry and error detection, data development, data fusion, complex 
 analyses, and sophisticated data display and map composition 
 MapInfo - MapInfo is a comprehensive set of GIS products developed by the MapInfo Corporation. MapInfo products are used mainly in GIS business and municipal applications. 
+
 Common GIS applications Cont…
 Idrisi - Idrisi is a GIS system developed by the Graduate School of Geography of Clark University. I t provides 
 both image processing and GIS functions. Idrisi has been developed and maintained at an educational and 
